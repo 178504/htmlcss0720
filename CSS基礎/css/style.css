@@ -1,0 +1,27 @@
+p{
+  color: #f00;
+}
+
+.css1{
+  color: #00f;
+  background-color: #ff0;
+}
+
+.css2{
+  color: #f00;
+  background-color: #ff0;
+}
+
+.red{
+  color: #f00;
+}
+
+.highlight{
+  color: #000;
+  background-color: #ff0;
+}
+
+.red_highlight{
+  color: #fff;
+  background-color: #ff0;
+}
