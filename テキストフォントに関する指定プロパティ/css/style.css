@@ -1,0 +1,28 @@
+table{
+  margin: 10px;
+}
+
+th{
+  background: #00f;
+  text-align: center;
+}
+td{
+  background: #0ff;
+  text-align: center;
+}
+
+li{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+section{
+  font-size: 16pt;
+}
+
+h1{
+  font-size: 1.5em;/*font-size：16pt×1.5=24pt*/
+}
+p{
+  font-size: 0.8em;/*font-size：16pt×0.8=12.8px*/
+}

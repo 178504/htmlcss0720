@@ -1,0 +1,43 @@
+.top-text{
+  text-align: center;
+  margin: 10px;
+}
+
+.sub-text{
+  font-style: italic;
+  margin: 10px;
+  padding: 5px;
+  background: #00f;
+  color: #fff;
+  display: inline-block;
+}
+
+.main-text{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.color-16{
+  color: #f00;
+}
+
+.color-rgb{
+  color: rgb(255, 0, 0);
+}
+
+.color-rgba-100{
+  color: rgba(255, 0, 0, 1);
+}
+
+.color-rgba-50{
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.color-rgba-1{
+  color: rgba(255, 0, 0, 0.1);
+}
+
+.color-name{
+  font-size: 18px;
+  color: red;
+}

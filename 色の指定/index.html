@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+  <title>色の指定方法を知ろう</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="section-text">
+    <h1 class="top-text">色の指定方法を知ろう</h1>
+    <h2 class="sub-text">16進数による6桁の色の指定方法を知ろう</h2>
+  </div>
+  <div class="main-text">
+    <p>CSSの色の指定方法で最もポピュラーなのが<span class="color-16">#FF0000</span>のように16進数でRGB値を指定する方法です。<br>
+      #に続いて赤・緑・青のそれぞれの数値を2ケずつ指定。<br>例えば #ff0000はMAXがff、緑・青が何もない00となり、赤を指定したことになります。</p>
+      <div class="secton-text">
+        <h2 class="sub-text">10進数による色のして方法を知ろう</h2>
+      </div>
+  </div>
+<div class="main-text">
+  <p>rgb()の中に赤・緑・青の値を0～255までの数値、もしくは0%～100%までのパーセンテージでしていするほうほうもあります。<br>例えば<span class="color-rgb">rgb(250, 0, 0)</span>とした場合は赤を指定したことになります。</p>
+</div>
+<div class="section-text">
+  <h2 class="sub-text">RGBAによる色の指定方法を知ろう</h2>
+  <div class="main-text">
+    <p>rgbには不透明度を加えたrgba()という方法があります。<br>0～1の数値で透明度を指定します。0が透明 1が不透明です。</p>
+    <p class="color-rgba-100">100%の不透明度赤</p>
+    <p class="color-rgba-50">50%の不透明度赤</p>
+    <p class="color-rgba-1">1%の不透明度赤</p>
+  </div>
+</div>
+<p class="color-name">※色名で指定も可能</p>
+</body>
+</html>
