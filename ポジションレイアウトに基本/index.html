@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポジションレイアウトトップページ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>ポジションレイアウトの基礎</h1>
+  <h2><mark>ポジションレイアウトの使いどころ</mark></h2>
+  <p>ポジションレイアウトは<span>縦方向の配置が得意なレイアウト方法です。</span>ポジションを使うとpx単位で細かな移動ができます。<br>
+    その代わり全ての数値を把握しておく必要があります。<br>ポジションレイアウトの手順は、<span>positionプロパティ</span>で絶対配置、相対配置等の配置方法を指定したうえで、<span>top.leftプロパティ</span>等を使って細かな位置を指定してレイアウトします。
+  </p>
+  <h2><mark>初期値のstaticを知ろう</mark></h2>
+  <p>positionプロパティの初期値は通常配置のstaticです。この時ボックスは通常の位置に配置されますがtop left bottom rightプロパティは適用されず、位置しては無効になります。
+    次の例ではbox1にtop50px left100pxで指定しているが<span>positionプロパティ</span>を指定してないので位置指定が無効になります。
+  </p>
+<h3>初期状態</h3>
+<div class="wrapper">
+  <div class="box1">position: static;</div>
+  <div class="box2">後続の兄弟要素</div>
+</div>
+<ul>
+  <li><a href="relative.html">相対配置</a></li>
+  <li><a href="absolute.html">絶対配置</a></li>
+  <li><a href="fixed.html">固定配置</a></li>
+  <li><a href="z-index.html">z-index</a></li>
+</ul>
+</body>
+</html>

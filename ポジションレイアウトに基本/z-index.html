@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>z-indexでボックスの重なりを制御しよう</title>
+  <link rel="stylesheet" href="css/z-index.css">
+</head>
+<body>
+  <h1>z-indexとは</h1>
+  <h2><mark>z-indexでボックスの重なりを制御しよう</mark></h2>
+  <p>ポジションレイアウトで位置指定をすると、ボックスが重なり合うことがあります。この重なりを制御するには、<span>z-indexプロパティ</span>を指定します。<br>
+    z-indexはposition: static;以外の値が設定されている要素のみ指定できるので注意。<br>
+    z-indexの初期値は親要素と同じ階層のautoです。<br>
+    その他の値は整数値で指定しますが、0を基準として、値が大きいものほど上になります。
+  </p>
+<div class="wrapper">
+  <div class="box1">box1</div>
+  <div class="box2">box2</div>
+  <div class="box3">box3</div>
+</div>
+<ul>
+  <li><a href="index.html">ボックスレイアウトの基礎</a></li>
+  <li><a href="relative.html">相対配置</a></li>
+  <li><a href="absolute.html">絶対配置</a></li>
+  <li><a href="fixed.html">固定配置</a></li>
+</ul>
+</body>
+</html>
