@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>float解除しない場合</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>float解除しない場合</h1>
+  <p>float解除しなくても問題ないように思うかもしれません。<br>しかし、<span>親要素にmarginが利かない・親要素の画像や背景色が表示されない・後続の要素が回り込んで意図したところに配置される</span>等さまざまな問題が起こります</p>
+  <h2>float解除しない場合</h2>
+  <p>clearプロパティで回り込みが解除されてないため、親要素の背景色のグレーが表示されず後続の要素.box3がまわりこんでしまう。</p>
+  <p><a href="clear.html">clearで解除した場合</a></p>
+  <p><a href="clearfix.html">clearfixで解除した場合(兄弟要素あり)</a></p>
+  <p><a href="summarize.html">まとめ</a></p>
+  <div class="wrapper">
+    <div class="box1">BOX1のテキストです。BOX1のテキストです。BOX1のテキストです。BOX1のテキストです。BOX1のテキストです。BOX1のテキストです。BOX1のテキストです。BOX1のテキストです。BOX1のテキストです。BOX1のテキストです。</div>
+    <div class="box2">BOX2のテキストです。BOX2のテキストです。BOX2のテキストです。BOX2のテキストです。BOX2のテキストです。BOX2のテキストです。BOX2のテキストです。BOX2のテキストです。BOX2のテキストです。BOX2のテキストです。</div>
+    <div class="box3">box3</div>
+  </div>
+</body>
+</html>

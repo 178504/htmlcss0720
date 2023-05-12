@@ -1,0 +1,22 @@
+.wrapper{
+  width: 100%;
+}
+
+
+.box1{
+  width: 50%;
+  background: #f00;
+  float: left;
+}
+
+.box2{
+  width: 50%;
+  background: #00f;
+  float: right;
+}
+
+.box3{
+  width: 100%;
+  background: #080;
+  clear: both;
+}
