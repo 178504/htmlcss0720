@@ -1,0 +1,171 @@
+header, footer{
+  width: 100%;
+}
+
+.top{
+  border-top: 10px solid #511717;
+}
+
+header h1{
+  margin: 50px 0 30px 0;
+  text-align: center;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header nav ul{
+  width: 940px;
+  margin:0 auto 30px auto;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+header nav ul li{
+  width: 155px;
+  margin-right: 2px;
+  float: left;
+  text-align: center;
+}
+
+header nav ul li:last-child{
+  margin-right: 0;
+}
+
+header nav ul li a{
+  background: #511717;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active,
+header nav ul li .current a{
+  background-color: #000;
+}
+
+
+footer{
+  background-color: #511717;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer ul{
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+footer ul li{
+  display:inline;
+  margin: 0 10px;
+}
+
+footer ul li a{
+  color: #fff;
+}
+
+footer ul li a:link, footer ul li a:visited{
+  text-decoration: none;
+}
+
+footer ul li a:hover, footer ul li a:active{
+  text-decoration: underline;
+}
+
+
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.topic{
+  padding-left: 0;
+}
+
+.topic li{
+  display: inline;
+  list-style-type: none;
+  font-size: 80%;
+}
+
+.topic li::after{
+  padding: 0 10px;
+  content: "\003E";/* 大なり記号を挿入 */
+}
+
+.topic li:last-child::after{
+content: none;
+}
+
+main a:link, main a:visited{
+  color: #511717;
+}
+
+main h1{
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  border-left: 10px solid #511717;
+  border-bottom: 1px solid #511717;
+  font-size: 1.8em;
+}
+
+main h2{
+  position: relative;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main h2:after, main h2:before{
+  position: absolute;
+  border-top: 1px dotted #511717;
+  content: "";
+  width: 300px;
+  top:50%;
+}
+
+main h2:after{
+  left: 0;
+}
+
+main h2:before{
+  right: 0;
+}
+
+.clearfix:after { /* clearfix */
+  content:"";
+  display: block;
+  clear: both;
+}
+.page-top{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.page-top a{
+  padding-top: 4px;
+  border-top: 4px solid #511717;
+}
+
+.page-top a:before{
+  content: "↑";
+}
+
+.page-top a:link, .page-top a:visited{
+  color: #511717;
+  text-decoration: none;
+}
+
+.lead{
+  line-height: 1.8em;
+  font-size:110%;
+  margin-bottom: 3em;
+}
