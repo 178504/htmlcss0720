@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>スマートフォン対応</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>スマートフォン対応</h1>
+  <h2>レスポンシブWEBデザイン</h2>
+  <h3><mark>スマートフォン対応の種類を知ろう</mark></h3>
+  <p>Webサイトをパソコンやタブレット、スマートフォン等の端末に対応される方法は、<br>
+    <span>端末ごとにWEBサイトを作る方法と端末ごとにCSSを切り替える方法</span>があります。</p>
+    <ol>
+      <li>端末ごとに1から構築する方法</li>
+      <p>コストと手間がかかる</p>
+      <li>レスポンシブWEBデザイン</li>
+      <p>PCファーストとモバイルファーストでデザインする方法がある。</p>
+    </ol>
+    <h3><mark>ビューポート設定をしよう</mark></h3>
+    <p>ビューポート設定を設定すると,ページの幅やさまざまな端末での拡大縮小を制御できる。</p>
+    <h3><mark>ビューポート設定できる値</mark></h3>
+    <table>
+      <tr>
+        <th>プロパティ</th>
+        <th>値</th>
+        <th>説明</th>
+      </tr>
+      <tr>
+        <td>width</td>
+        <td>devise-width(ピクセル数200～1000の範囲、初期値は980)</td>
+        <td>表示領域の幅</td>
+      </tr>
+      <tr>
+        <td>height</td>
+        <td>devise-height(ピクセル数は233～1000,初期値は自動)</td>
+        <td>表示領域の高さ</td>
+      </tr>
+      <tr>
+        <td>minimum-scale</td>
+        <td>倍率0～10</td>
+        <td>最小倍率1が100％、初期値0.25</td>
+      </tr>
+      <tr>
+        <td>maximum-scale</td>
+        <td>倍率0～10</td>
+        <td>最大倍率1が100％、初期値1.6</td>
+      </tr>
+      <tr>
+        <td>initial-scale</td>
+        <td>倍率0～10</td>
+        <td>初期状態の倍率1が100％、minimum-scale～maximum-scaleの範囲</td>
+      </tr>
+      <tr>
+        <td>user-scalable</td>
+        <td>yesまたはno</td>
+        <td>ユーザーによる拡大・縮小</td>
+      </tr>
+    </table>
+    <h3><mark>ビューポートのおすすめ設定</mark></h3>
+    <p>webデザインのおすすめ設定はmeta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"この後メディアクリエを使って調整する事でうまく画面におさまるようになります。</p>
+    <div class="clearfix">
+      <ul>
+        <li><a href="media.html">メディアクリエの設定</a></li>
+      </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+h1{
+  text-align: center;
+}
+h2{
+  text-align: left;
+}
+h3{
+  text-align: left;
+}
+
+li{
+  font-weight: bold;
+}
+
+mark{
+  background-color: #f80;
+  font-weight: bold;
+  color:#fff;
+}
+
+span{
+  color: #f00;
+  font-weight: bold;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+table th, table td{
+  padding: 10px 20px;
+}
+
+table th, table td{
+  border-right: 1px solid #000;
+}
+
+table tr:nth-child(odd){
+  background-color: #00ffdd;
+}
